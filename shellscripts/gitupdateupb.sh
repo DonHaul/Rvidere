@@ -3,5 +3,5 @@ ssh sipg@$1 << EOF
 cd ./UpBoard-FeedBot/
 pwd
 git pull
-DonHaul
+bash shellscripts/historic.sh
 EOF
