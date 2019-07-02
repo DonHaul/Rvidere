@@ -5,14 +5,14 @@ mydir=$(dirname "$0")
 cd "$mydir/.."
 
 #creates if it doesnt exist yet, the historic.log file
-touch historic.log
+touch history.log
 
 #formats date
 data=$(date +"%I:%M:%S %d/%m/%Y")
 
 #joins date and argument
-towrite="$1\t$data"
-echo $towrite
+towrite="$1 \t $data"
 
-#adds to begining of file
-echo $towrite | cat - history.log > temp && mv temp history.log
+
+#adds to begining of file -e is for output tabs
+echo -e $towrite | cat - history.log > temp && mv temp history.log

@@ -4,6 +4,6 @@ cd ./UpBoard-FeedBot/
 pwd
 git pull
 echo PULLADD
-bash shellscripts/historic.sh PULL
+bash shellscripts/history.sh PULL
 echo PULL DONE
 EOF
