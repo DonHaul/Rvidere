@@ -8,7 +8,7 @@ cd "$mydir/.."
 touch history.log
 
 #formats date
-data=$(date +"%I:%M:%S %d/%m/%Y")
+data=$(date +"%T %d/%m/%Y")
 
 #joins date and argument
 towrite="$1\t$data"
