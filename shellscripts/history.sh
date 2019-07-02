@@ -11,7 +11,7 @@ touch history.log
 data=$(date +"%I:%M:%S %d/%m/%Y")
 
 #joins date and argument
-towrite="$1 \t $data"
+towrite="$1\t$data"
 
 
 #adds to begining of file -e is for output tabs
