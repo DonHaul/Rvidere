@@ -15,5 +15,4 @@ towrite="$1\t$data"
 echo $towrite
 
 #adds to begining of file
-sed -i "1i\
-$towrite" $mydir/../historic.log
+echo $towrite | cat - history.log > temp && mv temp history.log
