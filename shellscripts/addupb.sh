@@ -10,4 +10,4 @@ fi
 EOF
 
 #ADD CHECKS HERE IF THE UPBOARD HAS THE REPO HAS ROS AND HAS THE REALSESNE realsense_camera/  LIBRARY
-
+#permituserenvironment
