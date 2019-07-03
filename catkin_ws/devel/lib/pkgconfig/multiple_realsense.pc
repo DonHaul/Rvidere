@@ -1,0 +1,8 @@
+prefix=/home/ramiro/Desktop/UpBoard-FeedBot/catkin_ws/devel
+
+Name: multiple_realsense
+Description: Description of multiple_realsense
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ramiro/Desktop/UpBoard-FeedBot/catkin_ws/devel/lib 
+Requires: 

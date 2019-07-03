@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find realsense_camera)/launch/zr300_nodelet_rgbd.launch">
+    <arg name="camera" value="speedwagon" />
+    <arg name="serial_no" value="A70777V00280234A" />
+
+
+  </include>
+</launch>

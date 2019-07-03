@@ -1,0 +1,2 @@
+roscore &
+echo "Starting System..."
