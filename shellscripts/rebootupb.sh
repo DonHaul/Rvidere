@@ -1,5 +1,5 @@
 ssh sipg@$1 << EOF
 bash UpBoard-FeedBot/shellscripts/history.sh REBOOT
-sudo reboot
+reboot
 EOF
 bash $(shellscripts/history.sh REBOOT_$1)
