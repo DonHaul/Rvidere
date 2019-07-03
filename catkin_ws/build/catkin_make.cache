@@ -1,2 +1,0 @@
-multiple_realsense
--DCATKIN_DEVEL_PREFIX=/home/ramiro/Desktop/UpBoard-FeedBot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ramiro/Desktop/UpBoard-FeedBot/catkin_ws/install -G Unix Makefiles
