@@ -10,6 +10,6 @@ fi
 git push
 
 
-cams=awk '{print $1}' ./../sysconfig.txt
+cams=echo *  | head -n1 | cut -d " " -f1
 echo $cams
 echo jeff
