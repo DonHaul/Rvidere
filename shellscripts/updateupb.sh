@@ -5,5 +5,6 @@ git pull
 bash shellscripts/history.sh PULL
 EOF
 echo doingotherstuff
-tmux kill-session
 bash $(shellscripts/history.sh PUSHEDINTO_$1)
+echo punsge to sotery
+tmux kill-session
