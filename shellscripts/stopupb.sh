@@ -1,4 +1,4 @@
 ssh sipg@$1 << EOF
-source ~/UpBoard-FeedBot/catkin_ws/devel/setup.bash
+bash ~/UpBoard-FeedBot/shellscripts/history.sh STOP
 tmux kill-session -t ros
 EOF
