@@ -7,9 +7,8 @@ else
       git commit -m $1
 fi
 git push
-gets script directory
+#gets script directory
 mydir=$(dirname "$0")
-
 #get first word of each line
 cams=$(cut -d' ' -f1 $mydir/../sysconfig.txt)
 echo $cams
@@ -18,10 +17,8 @@ echo jeff
 count=0
 for one_thing in $cams; do
    
-
+    #goes throw every single one except the first one
     if [ "$count" != "0" ]; then
-     echo $one_thing
-     echo "not zero"
      tmux new-session -d "bash $mydir/updateupb.sh $one_thing"
     fi
 
