@@ -8,3 +8,6 @@ else
       git commit -m $1
 fi
 git push
+
+
+awk '{print $1}' ./../sysconfig.txt
