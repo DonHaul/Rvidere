@@ -11,5 +11,5 @@ git push
 
 
 cams=awk '{print $1}' ./../sysconfig.txt
-echo cams
+echo $cams
 echo jeff
