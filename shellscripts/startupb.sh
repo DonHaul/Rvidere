@@ -1,8 +1,3 @@
-ssh sipg@$1 << EOF
-cd UpBoard-FeedBot/
-bash shellscripts/history.sh START
-bash shellscripts/starthisupb.sh
-
-
-
-EOF
+gnome-terminal -e "ssh sipg@$1 << EOF
+roslaunch realsense_camera zr300_nodelet_default.launch
+EOF"
