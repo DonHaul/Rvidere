@@ -10,4 +10,6 @@ fi
 git push
 
 
-awk '{print $1}' ./../sysconfig.txt
+cams=awk '{print $1}' ./../sysconfig.txt
+echo cams
+echo jeff
