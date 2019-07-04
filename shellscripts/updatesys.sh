@@ -22,7 +22,7 @@ for one_thing in $cams; do
     if [ "$count" != "0" ]; then
      echo $one_thing
      echo "not zero"
-     tmux new-session -d "bash $mydir/gitupdateupb.sh $one_thing"
+     tmux new-session -d "bash $mydir/updateupb.sh $one_thing"
     fi
 
     ((count++))
