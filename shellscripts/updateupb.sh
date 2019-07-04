@@ -5,4 +5,4 @@ git pull
 bash shellscripts/history.sh PULL
 EOF
 bash $(shellscripts/history.sh PUSHEDINTO_$1)
-tmux kill-session -t "update"
+tmux kill-session
