@@ -19,7 +19,7 @@ for one_thing in $cams; do
    
     #goes throw every single one except the first one
     if [ "$count" != "0" ]; then
-     tmux new-session -d -s "update" "bash $mydir/updateupb.sh $one_thing"
+     tmux new-session -d "bash $mydir/updateupb.sh $one_thing"
     fi
 
     ((count++))
