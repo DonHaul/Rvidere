@@ -4,7 +4,7 @@ git pull
 
 if grep -q "/home/sipg/UpBoard-FeedBot" ~/.bashrc
 then 
-echo("FILE ALREADY THERE")
+echo "FILE ALREADY THERE"
 else
 sed -i '1s/^/source /home/sipg/UpBoard-FeedBot/shellscripts/setup.sh'  ~/.bashrc
 sed -i '1s/^/source /opt/ros/kinetic/setup.bash' ~/.bashrc
