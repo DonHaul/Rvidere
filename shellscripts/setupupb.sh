@@ -1,3 +1,4 @@
 ssh sipg@$1 << EOF
-bash initializebashrc.sh
+chmod +x UpBoard-FeedBot/shellscripts/initializebashrc.sh
+bash UpBoard-FeedBot/shellscripts/initializebashrc.sh
 EOF
