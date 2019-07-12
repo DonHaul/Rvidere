@@ -1,3 +1,4 @@
 metro_server01 10.0.26.172
-metro03 10.25.133 speedwagon
+metro01 10.0.22.204 
+metro03 10.0.25.140 speedwagon
 metro05 10.0.25.133 emperorcrimson
