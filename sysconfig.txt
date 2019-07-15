@@ -2,3 +2,4 @@ metro_server 10.0.26.172
 metro01 10.0.22.204 killerqueen
 metro03 10.0.25.140 speedwagon
 metro05 10.0.25.133 emperorcrimson
+metro06 10.0.23.249 killerqueen
