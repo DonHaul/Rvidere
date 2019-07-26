@@ -1,7 +1,7 @@
 metro_server 10.0.26.172
-metro01 10.0.22.204 diavolo
-metro03 10.0.25.140 speedwagon
-metro04 10.0.25.142 killerqueen
-metro05 10.0.25.133 mista
-metro06 10.0.23.249 emperorcrimson
+metro01 10.0.14.101 speedwagon
+metro03 10.0.14.103 killerqueen
+metro04 10.0.14.104 diavolo
+metro05 10.0.14.105 mista
+metro06 10.0.14.106 emperorcrimson
 
