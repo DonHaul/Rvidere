@@ -26,25 +26,25 @@
 
 <include file="$(find multiple_realsense)/launch/timesyncOne.launch">
   <arg name="name" default="oldman"/>
-  <arg name="origin" default="/speedwagon/rgb/image_rect_color"/>
+  <arg name="origin" default="/speedwagon/depth_registered/sw_registered/image_rect_raw"/>
   <arg name="output" default="depth"/>
 </include>
 
 <include file="$(find multiple_realsense)/launch/timesyncOne.launch">
   <arg name="name" default="oldman"/>
-  <arg name="origin" default="/diavolo/rgb/image_rect_color"/>
+  <arg name="origin" default="/diavolo/depth_registered/sw_registered/image_rect_raw"/>
   <arg name="output" default="depth"/>
 </include>
 
 <include file="$(find multiple_realsense)/launch/timesyncOne.launch">
   <arg name="name" default="oldman"/>
-  <arg name="origin" default="/killerqueen/rgb/image_rect_color"/>
+  <arg name="origin" default="/killerqueen/depth_registered/sw_registered/image_rect_raw"/>
   <arg name="output" default="depth"/>
 </include>
 
 <include file="$(find multiple_realsense)/launch/timesyncOne.launch">
   <arg name="name" default="oldman"/>
-  <arg name="origin" default="/emperorcrimson/rgb/image_rect_color"/>
+  <arg name="origin" default="/emperorcrimson/depth_registered/sw_registered/image_rect_raw"/>
   <arg name="output" default="depth"/>
 </include>
 
