@@ -1,0 +1,51 @@
+<launch>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/speedwagon/rgb/image_rect_color"/>
+  <arg name="output" default="rgb"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/diavolo/rgb/image_rect_color"/>
+  <arg name="output" default="rgb"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/killerqueen/rgb/image_rect_color"/>
+  <arg name="output" default="rgb"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/emperorcrimson/rgb/image_rect_color"/>
+  <arg name="output" default="rgb"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/speedwagon/rgb/image_rect_color"/>
+  <arg name="output" default="depth"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/diavolo/rgb/image_rect_color"/>
+  <arg name="output" default="depth"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/killerqueen/rgb/image_rect_color"/>
+  <arg name="output" default="depth"/>
+</include>
+
+<include file="$(find multiple_realsense)/launch/timesyncOne.launch">
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/emperorcrimson/rgb/image_rect_color"/>
+  <arg name="output" default="depth"/>
+</include>
+
+</launch>

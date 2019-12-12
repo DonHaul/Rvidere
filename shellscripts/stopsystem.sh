@@ -1,5 +1,6 @@
 
 tmux kill-session -t ros
+tmux kill-session -t syncers
 
 
 #gets script directory

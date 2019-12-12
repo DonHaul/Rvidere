@@ -1,6 +1,7 @@
 input="../sysconfig.txt"
 
 tmux new-session -d -s "ros" "roscore"
+tmux new-session -d -s "syncers" "roslaunch multiple_realsense timesyncAll.launch"
 
 mydir=$(dirname "$0")
 #get first word of each line

@@ -1,0 +1,7 @@
+<launch>
+  <arg name="name" default="oldman"/>
+  <arg name="origin" default="/speedwagon/rgb/image_rect_color"/>
+  <arg name="output" default="rgb"/>
+
+  <node name="$(eval anon(name))" pkg="multiple_realsense" type="timesyncer.py" args="$(arg origin) $(arg output)"/>
+</launch>
