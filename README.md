@@ -15,6 +15,9 @@ Rvidere is a multi-camera RGB-D network system, that uses ROS, to transmit their
 
 Once you are done, run `bash shellscripts/stopsystem.sh` to stop the data transmission. Also, don't forget to turn of the system's power 😊
 
+
+<br>
+
 ## Topics
 All the 4 cameras in the system, transmit the save topics, the recomendend topics to use for depth and RGB images are:
  - `/CAMERA_NAME/thefutureisnow/rgb`
@@ -25,3 +28,7 @@ The camera names are:
 - killerqueen
 - emperorcrimson
 - diavolo
+
+<br>
+
+*A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki)
