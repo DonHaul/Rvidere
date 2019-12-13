@@ -4,6 +4,7 @@
 
 Rvidere is a multi-camera RGB-D network system, that uses ROS, to transmit their RGB and Depth images into a Server.  The utilized cameras are  Intel's RealSense™ 3D Camera [ZR300](https://click.intel.com/media/ZR300-Product-Datasheet-Public-002.pdf) that are connected to an [Upboard](https://up-board.org/up/specifications/) where some local processing is performed before transmitting the data.
 
+<br>
 
 ## Quick Start
 1. After turning on the power on the system.
@@ -31,4 +32,4 @@ The camera names are:
 
 <br>
 
-*A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki)
+**A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki)**
