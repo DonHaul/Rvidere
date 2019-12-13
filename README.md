@@ -6,9 +6,9 @@ Rvidere is a multi-camera RGB-D network system, that uses ROS, to transmit their
 
 
 ## Quick Start
-saoidhad
-## aoshdioashd
-widioasd
-### dposasodk
-asudihsuid
-#### aioshdioashdiaoshdio
+1.After turning on the power on the system.
+2.Make sure the cameras are connected to the switch and that the switch is connected to the main server
+3.Wait a minute so that the UpBoards properly boot up
+4. On the server go to ´/home/sipg_server/Rvidere´
+5. And run this command: ´bash shellscripts/startsystem.sh´
+6. After that open up a terminal on the server and open ´rviz´, where you will se images of what is being transmitted
