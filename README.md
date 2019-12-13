@@ -1,6 +1,3 @@
-# Rvidere
-
-
 ![Image of Yaktocat](https://github.com/DonHaul/Rvidere/blob/master/logo.png)
 
 
