@@ -12,3 +12,5 @@ Rvidere is a multi-camera RGB-D network system, that uses ROS, to transmit their
 4. On the server go to `/home/sipg_server/Rvidere`
 5. And run this command: `bash shellscripts/startsystem.sh`
 6. After that open up a terminal on the server and open `rviz`, where you will se images of what is being transmitted
+
+Once you are done, run `bash shellscripts/stopsystem.sh` to stop the data transmission. Also, don't forget to turn of the system's power :)
