@@ -32,4 +32,4 @@ The camera names are:
 
 <br>
 
-**A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki).**
+**More detailed documentation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki).**
