@@ -22,7 +22,7 @@ Once you are done, run `bash shellscripts/stopsystem.sh` to stop the data transm
 ## Topics
 All the 4 cameras in the system, transmit the save topics, the recomendend topics to use for depth and RGB images are:
  - `/CAMERA_NAME/thefutureisnow/rgb`
- - `/CAMERA_NAME/thefutureisnow/rgb`
+ - `/CAMERA_NAME/thefutureisnow/depth`
  
 The camera names are:
 - speedwagon
@@ -32,4 +32,4 @@ The camera names are:
 
 <br>
 
-**A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki)**
+**A more detailed explanation of the whole system, with information about using, debugging, expanding and altering it can be found in [here](https://github.com/DonHaul/Rvidere/wiki).**
