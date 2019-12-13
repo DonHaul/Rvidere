@@ -13,7 +13,7 @@ echo "FILEs Have Been Added"
 fi
 
 
-git clone https://github.com/DonHaul/UpBoard-FeedBot
+git clone https://github.com/DonHaul/Rvidere
 git pull
 
 
