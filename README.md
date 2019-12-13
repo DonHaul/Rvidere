@@ -16,7 +16,7 @@ Rvidere is a multi-camera RGB-D network system, that uses ROS, to transmit their
 
 Once you are done, run `bash shellscripts/stopsystem.sh` to stop the data transmission. Also, don't forget to turn of the system's power 😊
 
-If for some reason you cannot see the images in `rviz`, don't worry, restart it all (pull the plug of the cameras and restart the server) and repeat the process. If it still doesn't work please refere to the [Trouble](https://github.com/DonHaul/Rvidere/wiki/Trouble) page.
+If for some reason you cannot see the images in `rviz`, don't worry, restart it all (pull the plug of the cameras and restart the server) and repeat the process. If it still doesn't work please refer to the [Trouble](https://github.com/DonHaul/Rvidere/wiki/Trouble) page.
 
 
 <br>
