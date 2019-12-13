@@ -1,4 +1,4 @@
-# ![Rvidere](https://github.com/DonHaul/Rvidere/blob/master/media/logo.png)
+ ![Rvidere](https://github.com/DonHaul/Rvidere/blob/master/media/logo.png)
 
 <br>
 
@@ -23,15 +23,17 @@ If for some reason you cannot see the images in `rviz`, don't worry, restart it 
 
 ## Recording Images
 
-Simply run `bash shellscripts/record.sh`, a rosbag with depth and RGB images will be save in the current directory.
+Simply run `bash shellscripts/record.sh`, a rosbag with depth and RGB images will be saved in the current directory.
 
 
 <br>
 
 ## Topics
-All the 4 cameras in the system, transmit the save topics, the recomendend topics to use for depth and RGB images are:
+All the 4 cameras in the system, transmit the save topics, the recomendend topics to use for depth and RGB images and for their intrinsic parameters are:
  - `/CAMERA_NAME/thefutureisnow/rgb`
  - `/CAMERA_NAME/thefutureisnow/depth`
+ - `/CAMERA_NAME/rgb/camera_info
+ - `/CAMERA_NAME/depth/camera_info`
  
 The camera names are:
 - speedwagon
