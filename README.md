@@ -29,7 +29,7 @@ Simply run `bash shellscripts/record.sh`, a rosbag with depth and RGB images wil
 <br>
 
 ## Topics
-All the 4 cameras in the system, transmit the save topics, the recomendend topics to use for depth and RGB images and for their intrinsic parameters are:
+All the 4 cameras in the system, transmit the same set of topics. The recomendend topics to use for depth and rgb images and for their intrinsic parameters are:
  - `/CAMERA_NAME/thefutureisnow/rgb`
  - `/CAMERA_NAME/thefutureisnow/depth`
  - `/CAMERA_NAME/rgb/camera_info`
