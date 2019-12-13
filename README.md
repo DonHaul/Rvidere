@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://github.com/DonHaul/Rvidere/blob/master/logo.png)
+# ![Rvidere](https://github.com/DonHaul/Rvidere/blob/master/media/logo.png)
 
 <br>
 
