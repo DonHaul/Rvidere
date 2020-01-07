@@ -24,6 +24,7 @@ If for some reason you cannot see the images in `rviz`, don't worry, restart it 
 ## Recording Images
 
 Simply run `bash shellscripts/record.sh`, a rosbag with depth and RGB images will be saved in the current directory.
+Press `Ctrl+C` when you wish to stop recording.
 
 
 <br>
